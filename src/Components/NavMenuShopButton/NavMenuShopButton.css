@@ -1,0 +1,22 @@
+.ShopButtonBody{
+    border: 1px dashed white;
+    margin: 15px;
+    border-radius: 20px;
+
+}
+
+.ShopButtonImage{
+    filter: invert(100%) sepia(3%) saturate(7464%) hue-rotate(49deg) brightness(109%) contrast(100%);
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.ShopButtonText{
+    font-family: "Segoe UI";
+    font-weight:600;
+    filter: invert(100%) sepia(3%) saturate(7464%) hue-rotate(49deg) brightness(109%) contrast(100%);
+    font-size: 24px;
+    text-align: center;
+
+}

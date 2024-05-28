@@ -1,0 +1,23 @@
+.ButtonBody{
+    width: 250px;
+    height: auto;
+    margin-left: 15px;
+    filter: invert(88%) sepia(3%) saturate(122%) hue-rotate(289deg) brightness(84%) contrast(101%);
+}
+
+.ButtonBody:hover{
+    cursor: pointer;
+    filter: invert(100%) sepia(3%) saturate(7464%) hue-rotate(49deg) brightness(109%) contrast(100%);
+}
+
+
+.ButtonImage{
+    display: inline-block;
+    height: 18px;
+}
+
+.ButtonText{
+    margin-left: 5%;
+    display: inline-block;
+    font-size: 18px;
+}

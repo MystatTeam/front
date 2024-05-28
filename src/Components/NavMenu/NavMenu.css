@@ -1,0 +1,31 @@
+.NavMenu_Body{
+    display: block;
+    width: 50px;
+    height: auto;
+    background-image: url("https://mystat.itstep.org/assets/images/park.jpg?v=879533787a3acfa750e3c1310bace6e2");
+    position: fixed;
+    background-size:cover
+}
+
+.NavMenu_Body:hover{
+    display: block;
+    width: 250px;
+    height: auto;
+    background-image: url("https://mystat.itstep.org/assets/images/park.jpg?v=879533787a3acfa750e3c1310bace6e2");
+    position: fixed;
+    background-size:cover
+}
+
+.NavMenu_Blur{
+    background-color: rgba(0, 15, 44, 0.575);
+    backdrop-filter: blur(2px);
+}
+
+.MystatLogo_Nav{
+    margin: auto;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    width: 135px;
+    height: 65px;
+    display: block;
+}
