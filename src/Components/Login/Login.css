@@ -1,0 +1,79 @@
+
+.InputField{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 320px;
+    height: 48px;
+    font-size: 18px;
+    color: white;
+    border-radius: 48px;
+    border: 1px solid transparent;
+    background-color: rgba(157, 165, 176, 0.5);
+    backdrop-filter: blur(5px);
+    display: block;
+    padding-left: 15px;
+}
+
+.InputField::placeholder{
+    color: white;
+
+}
+
+.InputField:hover{
+    cursor: text;
+}
+.LoginForm{
+    display: block;
+}
+
+.LoginButton{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 320px;
+    height: 48px;
+    font-size: 18px;
+    color: #e3e7ef;
+    border-radius: 48px;
+    border: 1px solid #1bd2c7;
+    background-color: #1bd2c7;
+    display: block;
+}
+
+.LoginButton:hover{
+    cursor: pointer;
+}
+
+.MystatLogo{
+    margin: auto;
+    margin-bottom: 50px;
+    width: 135px;
+    display: block;
+}
+
+.Body{
+    display: block;
+    background-image: url("https://mystat.itstep.org/assets/images/laptop.jpg?v=c1d0aacb6224f55344a731d2de109104");
+    
+    height: 100vh;
+    
+}
+
+.BlurLayer{
+    background-color: rgba(51, 102, 204, 0.2);
+    height: 70vh;
+    padding-top: 15%;
+    backdrop-filter: blur(1px);
+}
+
+.PasswordRestore{
+    text-decoration: none;
+    color: gray;
+    text-align:center;
+    display:block;
+}
+
+.PasswordRestore:hover{
+    color: white
+}
